@@ -1,0 +1,433 @@
+﻿html {
+		font-family: Trebuchet MS, Impact, Arial, Verdana, sans-serif;		/* Changer la police (par ordre de priorité*/
+}
+
+body {
+		overflow-x: hidden;		/* masquer la barre de defilement horizontal */
+		margin: 0;		/* Changer enlever la bordure blanche  */
+}
+
+/*-----------Head------------*/
+#logokbt {
+	display: block;
+	width: 150px;
+	height: 55px;
+	top: 5px;
+	left: 5px;
+	background-color: grey;
+}
+
+#banner1 {		/* possible grâce a l'utilisation des boites ("<div id="..."> */
+	display: block;		/* Utile pour pouvoir traiter la hauteur et la largeur */
+	background-color: #0096ff;		/* définir la couleur du fond */
+	height: 50px;		/* hauteur */
+	width: 100%;		/* largeur */
+}
+
+#banner1 p {
+	position: relative;
+	font-weight:: bold;
+	font-size: 30px;
+	top: 7px;
+	margin: 0;
+	text-align: center;
+}
+
+/*-----------Les menus-----------*/
+
+#menu {		/* le css du menu a été trouvé sur internet */
+	width: 100%;		/* Largeur du bandeau de 100% de la page */
+	height: 100px;		/* Hauteur du bandeau de 100px */
+	position: relative;
+	background-color: #005edf;		/* couleur du bandeau */
+}
+
+#menu ul {
+	float: left;
+	left: 53%;
+	position: relative;
+	padding-top: 15px;
+	margin-left: -60px;
+}
+
+#menu ul li {
+	margin-left: 20px;
+	float: left;
+	list-style-type: none;
+	position: relative;
+	left: -50%;
+}
+
+#menu ul li a {
+	border-radius: 25px;
+	border: 3px solid black;
+	text-align: center;
+	padding-top: 10px;
+	display: inline-block;
+	background-color: #0096ff;
+	height: 30px;
+	width: 100px;
+	color: black;		/* couleur tu texte du menu */
+	text-decoration: none;
+}
+
+#menu ul li a:hover {		/* changement de la case */
+	color: white;		/* couleur tu texte du menu */
+	background-color: #003885;			/* couleur tu texte du menu */
+}
+
+#banner2 {
+	display: block;
+	background-color: grey;
+	height: 50px;
+	width: 100%;
+	border-top: 3px solid black;
+	border-bottom: 3px solid black;
+}
+
+#banner2 p {
+	position: relative;
+	font-weight:: bold;
+	font-size: 30px;
+	top: 7px;
+	margin: 0;
+	text-align: center;
+}
+
+#banner3 {
+	display: block;
+	background-color: grey;
+	height: 50px;
+	width: 100%;
+}
+
+/*-------------------------------CORPS---------------------------*/
+
+#article {
+	display: block;
+	margin-left: 15%;		/* marge de 15 à gauche et */
+	margin-right: 15% ;		/* 15 à droite */
+}
+
+#article h2 {
+	text-align:center;
+}
+
+#image {
+	display: block;
+	margin-left:20%;		/* marge de 20% à gauche et */
+	margin-right:15% ;		/* 15% à droite */
+}
+
+#son {
+	display: block;
+	margin-left:36%;		/* marge de 36% à gauche et */
+	margin-right:15% ;		/* 15% à droite */
+
+}
+
+#video {
+	display: block;
+	margin-left:10%;		/* marge de 9% à gauche et */
+	margin-right:10% ;		/* 15% à droite */
+
+}
+
+/*---------------------FOOTER------------------*/
+#footer {
+	
+	text-align: center;		/* Centrer le texte */
+	background-color: #0096ff;
+	height: 60px;
+
+	}
+
+#footer p {
+	color: black;		/* Définir la couleur du texte */
+	font-weight: bold;		/* Définir la couleur en gras */
+	position: relative;
+	top: 20px;		/* rajouter 20 px en haut pour center verticalement */
+}
+
+
+#logokbt
+{
+	width:20%;
+}
+
+/*-------------ACCEUIL---------------*/
+
+
+
+/*--------------ELEVES--------------*/
+
+#Block {
+	overflow:hidden;
+	margin:auto;
+	display: block;
+	position: relative;
+	width: 99%;		/* Largeur de la fiche */
+	height: 1275px;		/* Hauteur de la fiche */
+	background-color: grey;		/* couleur du background de la fiche */
+	border-radius: 3px;
+	padding:25px;
+	border: 1px solid #DBDBE6;
+}
+
+/*--------Fiches d'eleves--------*/
+.fiches {
+	display: inline-block;
+	width: 200px;		/* Largeur de la fiche */
+	height: 408px;		/* Hauteur de la fiche */
+	position: relative;
+	background-color: grey;		/* couleur du background de la fiche */
+	border-radius: 10px;
+	border: 5px solid #DBDBE6;
+	padding-top: 0px;
+	margin-bottom: 15px;
+}
+
+#fiches2 {
+	display: inline-block;
+	width: 200px;		/* Largeur de la fiche */
+	height: 408px;		/* Hauteur de la fiche */
+    position: relative;
+	background-color: grey;		/* couleur du background de la fiche */
+	border-radius: 10px;
+	border: 5px solid #DBDBE6;
+	padding-top: 0px;
+}
+
+#fichesNom {
+	width: 100%;
+	height: 40px;
+	background-color: #2E86D4;
+	top: 0px;
+	border-top: 2px solid black;
+	border-bottom: 3px solid black;
+	border-radius: 5px;
+}
+
+#fichesNom p {	
+	text-align: center;
+	font-weight: bold;
+	text-decoration: underline;
+	line-height: 50%
+}
+
+#fichesAvatar {
+	width: 100px;
+	height: 100px;
+	background-color: #CACBD8;
+	border: 3px solid black;
+	border-radius: 90px;
+	margin-left: 25%
+}
+	
+	
+#fichesInfo {
+	width: 100%;
+	height: 220px;
+	background-color: white;
+	border-top: 2px solid black;
+}
+
+#fichesInfoTitle {
+	width: 100%;
+	height: 25px;
+	background-color: #E50A5C;
+	border-bottom:2px solid black;
+	border-top:0px solid black;
+}
+
+#fichesInfo p {
+	padding-left: 15%;
+	text-align: left;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+#fichesInfoTitle p {
+	padding-left: 0%;
+	text-align: center;
+	font-weight: bold;
+	text-decoration: underline;
+	
+	color: white;
+}
+
+#fichesLien {
+	width: 100%;
+	height: 32px;
+	background-color: #339E4C;
+	border-top: 2px solid black;
+	bottom: 0px;
+	border-radius: 5px;
+}
+
+#fichesLien ul {
+	float: left;
+	left: 50%;
+	position: relative;
+	padding-top: -15px;
+	margin-left: -50%;
+}
+
+#fichesLien ul a {
+	border-radius: 5px;
+	text-align: center;
+	display: inline-block;
+	background-color: #339E4C;
+	height: 10px;
+	width: 100%;
+	float: left;
+	position: relative;
+	vertical-align: top;
+	line-height: 0px;
+	font-weight: bold;
+	color: #EAEA00;
+}
+
+#fichesLien ul a:hover {
+	color: blue;
+	background-color: #009737;
+}
+
+/*-------------------CONNEXION-------------------*/
+
+/*--------------Identification---------------*/
+
+
+#identification {
+	display: block;
+	position: relative;
+	width: 50%;		/* Largeur de la fiche */
+	height: 465px; /* Hauteur de la fiche */
+	left: 25%;
+	background-color: grey;		/* couleur du background de la fiche */
+	border-radius: 3px;
+	border: 1px solid black;
+	padding-top: 0px;
+}
+
+#inscriptionLien {
+	width: 100%;
+	height: 77px;
+	background-color: black;
+	border-top: 2px solid black;
+	bottom: 0px;
+}
+
+#inscriptionLien ul {
+	float: left;
+	left: 53%;
+	position: relative;
+	margin-left: -60px;
+}
+
+#inscriptionLien ul li {
+	margin-left: 20px;
+	float: left;
+	list-style-type: none;
+	position: relative;
+	left: -50%;
+}
+	
+#inscriptionLien ul li a {
+	border-radius: 25px;
+	border: 3px solid grey;
+	text-align: center;
+	padding-top: 10px;
+	display: inline-block;
+	background-color: black;
+	height: 30px;
+	width: 100px;
+	color: grey;		/* couleur tu texte du menu */
+	text-decoration: none;
+}
+
+#inscriptionLien ul a:hover {
+	color: black;
+	background-color: grey;
+}
+
+
+	
+/*--------------Iscription-------------------*/
+#inscription {
+	display: block;
+	position: relative;
+	width: 50%;		/* Largeur de la fiche */
+	height: 476px; /* Hauteur de la fiche */
+	left: 25%;
+	background-color: grey;		/* couleur du background de la fiche */
+	border-radius: 3px;
+	border: 1px solid black;
+	padding-top: 0px;
+}
+#titre_formulaire {
+	text-align: center;
+	font-weight: bold;
+}
+
+
+
+#submit  {
+	padding-top: 10px;
+	float: left;
+	display: inline-block;
+	left: 50%;
+	position: relative;
+	margin-left: -60px;
+	border-radius: 25px;
+	border: 3px solid grey;
+	text-align: center;
+	font-weight: bold;
+	line-height: 0px;
+	padding-top: 10px;
+	display: inline-block;
+	background-color: black;
+	height: 30px;
+	width: 100px;
+	color: grey;		/* couleur tu texte du menu */
+	text-decoration: none;
+}
+
+#submit:hover  {
+	color: black;
+	background-color: grey;
+}
+/*----------------------PAGE DE PROFIL------------------------*/
+
+#avatar {
+	position: relative;
+	width: 150px;
+	height: 150px;
+	border: 0px solid black;
+	border-radius: 100px;
+	left: 42%;
+}
+
+#information {
+	display: block;
+	position: relative;
+	width: 100%;		/* Largeur de la fiche */
+	height: 1000px;		/* Hauteur de la fiche */
+	background-color: grey;		/* couleur du background de la fiche */
+	border-radius: 3px;
+	border: 1px solid black;
+	padding: 50px;
+}
+
+#informationNom {
+	width: 100%;
+	height: 100px;
+	background-color: #2E86D4;
+	top: 0px;
+}
+
+#informationNom p {	
+	text-align: center;
+	font-weight: bold;
+	line-height: 50%
+}
